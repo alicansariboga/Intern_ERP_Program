@@ -4,5 +4,5 @@
 # - Patches were added to each page instead of classes in Database operations in the project. I specified  those fields as DB, instead of this, you can control the DB from one place.
 # - File editing has been done.
 # - The database path lines to be added to the pages have been specified and this path addition needs to be done in the App.config file.
-#MainPage ScreenShot
+# MainPage ScreenShot
 ![ApplicationSS](https://github.com/alicansariboga/Intern_ERP_Program/assets/23722313/ad040227-db77-471e-bc38-d9bc2c9a9cde)
