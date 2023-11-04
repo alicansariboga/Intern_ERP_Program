@@ -6,3 +6,5 @@
 # - The database path lines to be added to the pages have been specified and this path addition needs to be done in the App.config file.
 # MainPage ScreenShot
 ![ApplicationSS](https://github.com/alicansariboga/Intern_ERP_Program/assets/23722313/ad040227-db77-471e-bc38-d9bc2c9a9cde)
+## LINKS
+You can contact and connect with me [here](https://www.linkedin.com/in/alicansariboga/).
