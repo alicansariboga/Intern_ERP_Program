@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjectAliCanSariboga
 {
-    public partial class Form1 : Form
+    public partial class FormMainPage : Form
     {
-        public Form1()
+        public FormMainPage()
         {
             InitializeComponent();
         }
@@ -73,6 +73,11 @@ namespace ProjectAliCanSariboga
             //ana ekranda alt kismin gosterilmesi islemi
             frm.MdiParent = this;
             frm.Show();
+        }
+
+        private void FormMainPage_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

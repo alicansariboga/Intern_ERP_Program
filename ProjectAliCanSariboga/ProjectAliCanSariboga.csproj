@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>avatar_man_police_detective_cop_cap_badge_icon_256862.ico</ApplicationIcon>
+    <ApplicationIcon>appIcon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.CodeParser.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -60,159 +60,159 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormsMainPage\FormMainPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormsMainPage\FormMainPage.Designer.cs">
+      <DependentUpon>FormMainPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormGenelRapor.cs">
+    <Compile Include="FormsMainPage\FormGenelRapor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormGenelRapor.Designer.cs">
+    <Compile Include="FormsMainPage\FormGenelRapor.Designer.cs">
       <DependentUpon>FormGenelRapor.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormIsEmriGirisi.cs">
+    <Compile Include="FormsWorkOrders\FormIsEmriGirisi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormIsEmriGirisi.Designer.cs">
+    <Compile Include="FormsWorkOrders\FormIsEmriGirisi.Designer.cs">
       <DependentUpon>FormIsEmriGirisi.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormIsEmriListesi.cs">
+    <Compile Include="FormsWorkOrders\FormIsEmriListesi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormIsEmriListesi.Designer.cs">
+    <Compile Include="FormsWorkOrders\FormIsEmriListesi.Designer.cs">
       <DependentUpon>FormIsEmriListesi.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormIsEmrineUygunSiparisListesi.cs">
+    <Compile Include="FormsWorkOrders\FormIsEmrineUygunSiparisListesi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormIsEmrineUygunSiparisListesi.Designer.cs">
+    <Compile Include="FormsWorkOrders\FormIsEmrineUygunSiparisListesi.Designer.cs">
       <DependentUpon>FormIsEmrineUygunSiparisListesi.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMusteriKayitlari.cs">
+    <Compile Include="FormsCustomer\FormMusteriKayitlari.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMusteriKayitlari.Designer.cs">
+    <Compile Include="FormsCustomer\FormMusteriKayitlari.Designer.cs">
       <DependentUpon>FormMusteriKayitlari.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMusteriListesi.cs">
+    <Compile Include="FormsCustomer\FormMusteriListesi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMusteriListesi.Designer.cs">
+    <Compile Include="FormsCustomer\FormMusteriListesi.Designer.cs">
       <DependentUpon>FormMusteriListesi.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRaporEkrani.cs">
+    <Compile Include="FormsReport\FormRaporEkrani.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRaporEkrani.Designer.cs">
+    <Compile Include="FormsReport\FormRaporEkrani.Designer.cs">
       <DependentUpon>FormRaporEkrani.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSiparisler.cs">
+    <Compile Include="FormsOrder\FormSiparisler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSiparisler.Designer.cs">
+    <Compile Include="FormsOrder\FormSiparisler.Designer.cs">
       <DependentUpon>FormSiparisler.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSiparisListesi.cs">
+    <Compile Include="FormsOrder\FormSiparisListesi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSiparisListesi.Designer.cs">
+    <Compile Include="FormsOrder\FormSiparisListesi.Designer.cs">
       <DependentUpon>FormSiparisListesi.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSiparisSevki.cs">
+    <Compile Include="FormsOrder\FormSiparisSevki.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSiparisSevki.Designer.cs">
+    <Compile Include="FormsOrder\FormSiparisSevki.Designer.cs">
       <DependentUpon>FormSiparisSevki.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormStokGrupKodlari.cs">
+    <Compile Include="FormsStock\FormStokGrupKodlari.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormStokGrupKodlari.Designer.cs">
+    <Compile Include="FormsStock\FormStokGrupKodlari.Designer.cs">
       <DependentUpon>FormStokGrupKodlari.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormStokHareketleri.cs">
+    <Compile Include="FormsStock\FormStokHareketleri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormStokHareketleri.Designer.cs">
+    <Compile Include="FormsStock\FormStokHareketleri.Designer.cs">
       <DependentUpon>FormStokHareketleri.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormStokKayitlari.cs">
+    <Compile Include="FormsStock\FormStokKayitlari.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormStokKayitlari.Designer.cs">
+    <Compile Include="FormsStock\FormStokKayitlari.Designer.cs">
       <DependentUpon>FormStokKayitlari.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormStokListesi.cs">
+    <Compile Include="FormsStock\FormStokListesi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormStokListesi.Designer.cs">
+    <Compile Include="FormsStock\FormStokListesi.Designer.cs">
       <DependentUpon>FormStokListesi.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormUretimSonuKaydiListeleri.cs">
+    <Compile Include="FormsProduction\FormUretimSonuKaydiListeleri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormUretimSonuKaydiListeleri.Designer.cs">
+    <Compile Include="FormsProduction\FormUretimSonuKaydiListeleri.Designer.cs">
       <DependentUpon>FormUretimSonuKaydiListeleri.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormUretimSonuKayitlari.cs">
+    <Compile Include="FormsProduction\FormUretimSonuKayitlari.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormUretimSonuKayitlari.Designer.cs">
+    <Compile Include="FormsProduction\FormUretimSonuKayitlari.Designer.cs">
       <DependentUpon>FormUretimSonuKayitlari.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormsMainPage\FormMainPage.resx">
+      <DependentUpon>FormMainPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormGenelRapor.resx">
+    <EmbeddedResource Include="FormsMainPage\FormGenelRapor.resx">
       <DependentUpon>FormGenelRapor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormIsEmriGirisi.resx">
+    <EmbeddedResource Include="FormsWorkOrders\FormIsEmriGirisi.resx">
       <DependentUpon>FormIsEmriGirisi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormIsEmriListesi.resx">
+    <EmbeddedResource Include="FormsWorkOrders\FormIsEmriListesi.resx">
       <DependentUpon>FormIsEmriListesi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormIsEmrineUygunSiparisListesi.resx">
+    <EmbeddedResource Include="FormsWorkOrders\FormIsEmrineUygunSiparisListesi.resx">
       <DependentUpon>FormIsEmrineUygunSiparisListesi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMusteriKayitlari.resx">
+    <EmbeddedResource Include="FormsCustomer\FormMusteriKayitlari.resx">
       <DependentUpon>FormMusteriKayitlari.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMusteriListesi.resx">
+    <EmbeddedResource Include="FormsCustomer\FormMusteriListesi.resx">
       <DependentUpon>FormMusteriListesi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRaporEkrani.resx">
+    <EmbeddedResource Include="FormsReport\FormRaporEkrani.resx">
       <DependentUpon>FormRaporEkrani.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSiparisler.resx">
+    <EmbeddedResource Include="FormsOrder\FormSiparisler.resx">
       <DependentUpon>FormSiparisler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSiparisListesi.resx">
+    <EmbeddedResource Include="FormsOrder\FormSiparisListesi.resx">
       <DependentUpon>FormSiparisListesi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSiparisSevki.resx">
+    <EmbeddedResource Include="FormsOrder\FormSiparisSevki.resx">
       <DependentUpon>FormSiparisSevki.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormStokGrupKodlari.resx">
+    <EmbeddedResource Include="FormsStock\FormStokGrupKodlari.resx">
       <DependentUpon>FormStokGrupKodlari.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormStokHareketleri.resx">
+    <EmbeddedResource Include="FormsStock\FormStokHareketleri.resx">
       <DependentUpon>FormStokHareketleri.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormStokKayitlari.resx">
+    <EmbeddedResource Include="FormsStock\FormStokKayitlari.resx">
       <DependentUpon>FormStokKayitlari.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormStokListesi.resx">
+    <EmbeddedResource Include="FormsStock\FormStokListesi.resx">
       <DependentUpon>FormStokListesi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormUretimSonuKaydiListeleri.resx">
+    <EmbeddedResource Include="FormsProduction\FormUretimSonuKaydiListeleri.resx">
       <DependentUpon>FormUretimSonuKaydiListeleri.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormUretimSonuKayitlari.resx">
+    <EmbeddedResource Include="FormsProduction\FormUretimSonuKayitlari.resx">
       <DependentUpon>FormUretimSonuKayitlari.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
@@ -242,7 +242,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="avatar_man_police_detective_cop_cap_badge_icon_256862.ico" />
+    <Content Include="appIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

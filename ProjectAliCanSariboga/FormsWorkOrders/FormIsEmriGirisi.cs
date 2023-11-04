@@ -15,7 +15,7 @@ namespace ProjectAliCanSariboga
     {
         public static string stokkodu;
         public static string isemrix;
-        SqlConnection SqlConn = new SqlConnection("Data Source=DESKTOP-4M0OQRD\\SQLEXPRESS;Initial Catalog=UretimProgramiNew;Integrated Security=True");
+        SqlConnection SqlConn = new SqlConnection("SQL connection here");
 
         public FormIsEmriGirisi()
         {

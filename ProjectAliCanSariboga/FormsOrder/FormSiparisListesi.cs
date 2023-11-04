@@ -15,7 +15,7 @@ namespace ProjectAliCanSariboga
     {
         public static string SiparisNo;
 
-        SqlConnection SqlConn = new SqlConnection("Data Source=DESKTOP-4M0OQRD\\SQLEXPRESS;Initial Catalog=UretimProgramiNew;Integrated Security=True");
+        SqlConnection SqlConn = new SqlConnection("SQL connection here");
 
         void arama()
         {

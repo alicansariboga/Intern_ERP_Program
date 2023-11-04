@@ -14,7 +14,7 @@ namespace ProjectAliCanSariboga
     public partial class FormUretimSonuKayitlari : Form
     {
         public static string uretimsx;
-        SqlConnection SqlConn = new SqlConnection("Data Source=DESKTOP-4M0OQRD\\SQLEXPRESS;Initial Catalog=UretimProgramiNew;Integrated Security=True");
+        SqlConnection SqlConn = new SqlConnection("SQL connection here");
 
         public FormUretimSonuKayitlari()
         {
